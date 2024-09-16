@@ -5390,10 +5390,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"isbot@npm:^5.1.9":
-  version: 5.1.9
-  resolution: "isbot@npm:5.1.9"
-  checksum: 10c0/8dbe7b42efcef074e194fce8261e06c0a514908ed6d803137c5364a988f34dc0d0a50fdbeed397502b51d84caab65cb149135fdfa5b5ddae5a990c0c09a63f3d
+"isbot@npm:^5.1.17":
+  version: 5.1.17
+  resolution: "isbot@npm:5.1.17"
+  checksum: 10c0/b4adee17c54bee4cfca5ed9ab1b3151f4df558a1d3b37c94bbd3b7e1f7e4a5130efdc2f54bae83e6fe3371d40576dcd90cd7072823a85b9e0a517eb51e057074
   languageName: node
   linkType: hard
 
@@ -9286,7 +9286,7 @@ __metadata:
     eslint-plugin-jsx-a11y: "npm:^6.9.0"
     eslint-plugin-react: "npm:^7.34.3"
     eslint-plugin-react-hooks: "npm:^4.6.2"
-    isbot: "npm:^5.1.9"
+    isbot: "npm:^5.1.17"
     postcss: "npm:^8.4.47"
     postcss-preset-mantine: "npm:1.17.0"
     postcss-simple-vars: "npm:^7.0.1"
