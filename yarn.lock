@@ -1326,7 +1326,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/node@npm:2.12.0":
+"@remix-run/node@npm:2.12.0, @remix-run/node@npm:^2.12.0":
   version: 2.12.0
   resolution: "@remix-run/node@npm:2.12.0"
   dependencies:
@@ -1346,7 +1346,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/node@npm:2.9.2, @remix-run/node@npm:^2.9.2":
+"@remix-run/node@npm:2.9.2":
   version: 2.9.2
   resolution: "@remix-run/node@npm:2.9.2"
   dependencies:
@@ -9181,7 +9181,7 @@ __metadata:
     "@mantine/core": "npm:7.12.2"
     "@mantine/hooks": "npm:7.12.2"
     "@remix-run/dev": "npm:^2.12.0"
-    "@remix-run/node": "npm:^2.9.2"
+    "@remix-run/node": "npm:^2.12.0"
     "@remix-run/react": "npm:^2.12.0"
     "@remix-run/serve": "npm:^2.9.2"
     "@types/react": "npm:^18.3.6"
