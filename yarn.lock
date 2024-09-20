@@ -1326,27 +1326,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/node@npm:2.12.0, @remix-run/node@npm:^2.12.0":
-  version: 2.12.0
-  resolution: "@remix-run/node@npm:2.12.0"
-  dependencies:
-    "@remix-run/server-runtime": "npm:2.12.0"
-    "@remix-run/web-fetch": "npm:^4.4.2"
-    "@web3-storage/multipart-parser": "npm:^1.0.0"
-    cookie-signature: "npm:^1.1.0"
-    source-map-support: "npm:^0.5.21"
-    stream-slice: "npm:^0.1.2"
-    undici: "npm:^6.11.1"
-  peerDependencies:
-    typescript: ^5.1.0
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: 10c0/52d4131d57354683571731655be5d1d2bd217356ea9dfa24b3702def5ba3e4e8d3fcc95d1ed8d7508ba8470c9a4f27db4837b3d64c8405e626eb5effb3fa3c43
-  languageName: node
-  linkType: hard
-
-"@remix-run/node@npm:2.12.1":
+"@remix-run/node@npm:2.12.1, @remix-run/node@npm:^2.12.1":
   version: 2.12.1
   resolution: "@remix-run/node@npm:2.12.1"
   dependencies:
@@ -1408,26 +1388,6 @@ __metadata:
   bin:
     remix-serve: dist/cli.js
   checksum: 10c0/2f5710cbb73ec503a5b2fe858dced9f614e802a79e314827b91014d7e3c58693f5d9eff336e3f37c9ebc2ab74ce27438f0990fa74452a61c1a12e3fe05b46e21
-  languageName: node
-  linkType: hard
-
-"@remix-run/server-runtime@npm:2.12.0":
-  version: 2.12.0
-  resolution: "@remix-run/server-runtime@npm:2.12.0"
-  dependencies:
-    "@remix-run/router": "npm:1.19.2"
-    "@types/cookie": "npm:^0.6.0"
-    "@web3-storage/multipart-parser": "npm:^1.0.0"
-    cookie: "npm:^0.6.0"
-    set-cookie-parser: "npm:^2.4.8"
-    source-map: "npm:^0.7.3"
-    turbo-stream: "npm:2.4.0"
-  peerDependencies:
-    typescript: ^5.1.0
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: 10c0/b2b04cc8fe4d5110c9155831fc838498a61e61825d3eb04c0c11af00110459a0accf96753b66664ac9861722a50695cae8d666983f118e54f94bb3ceb0390392
   languageName: node
   linkType: hard
 
@@ -8992,7 +8952,7 @@ __metadata:
     "@mantine/core": "npm:7.12.2"
     "@mantine/hooks": "npm:7.12.2"
     "@remix-run/dev": "npm:^2.12.1"
-    "@remix-run/node": "npm:^2.12.0"
+    "@remix-run/node": "npm:^2.12.1"
     "@remix-run/react": "npm:^2.12.1"
     "@remix-run/serve": "npm:^2.12.1"
     "@types/react": "npm:^18.3.7"
