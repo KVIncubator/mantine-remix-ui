@@ -1311,18 +1311,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/express@npm:2.12.0":
-  version: 2.12.0
-  resolution: "@remix-run/express@npm:2.12.0"
+"@remix-run/express@npm:2.12.1":
+  version: 2.12.1
+  resolution: "@remix-run/express@npm:2.12.1"
   dependencies:
-    "@remix-run/node": "npm:2.12.0"
+    "@remix-run/node": "npm:2.12.1"
   peerDependencies:
     express: ^4.19.2
     typescript: ^5.1.0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/031bf4a921a801c97f87dd465b90b34dc50967902aa298fa12d8aeaf1f31957eafc955203bf9dc9a20945745e588d9091c24cab13c2f08501dfec13cd5bf1d64
+  checksum: 10c0/bb90bd1f23b625b7dbfc4f0dfca03ccff3919f82194633aa3f1bdd10d8cb220a99b4a1e20c55e315f58533d082b9006c01813bf3aab62373d4693978d475a7f4
   languageName: node
   linkType: hard
 
@@ -1393,12 +1393,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/serve@npm:^2.12.0":
-  version: 2.12.0
-  resolution: "@remix-run/serve@npm:2.12.0"
+"@remix-run/serve@npm:^2.12.1":
+  version: 2.12.1
+  resolution: "@remix-run/serve@npm:2.12.1"
   dependencies:
-    "@remix-run/express": "npm:2.12.0"
-    "@remix-run/node": "npm:2.12.0"
+    "@remix-run/express": "npm:2.12.1"
+    "@remix-run/node": "npm:2.12.1"
     chokidar: "npm:^3.5.3"
     compression: "npm:^1.7.4"
     express: "npm:^4.19.2"
@@ -1407,7 +1407,7 @@ __metadata:
     source-map-support: "npm:^0.5.21"
   bin:
     remix-serve: dist/cli.js
-  checksum: 10c0/eda392644faa37cdd2303df62b0ec5854de3b65c02c0078b2a3d05da985124a352d65644f1c81978eed6e5256dfdfda28f511d8a7d8e0ea18da293b643844f20
+  checksum: 10c0/2f5710cbb73ec503a5b2fe858dced9f614e802a79e314827b91014d7e3c58693f5d9eff336e3f37c9ebc2ab74ce27438f0990fa74452a61c1a12e3fe05b46e21
   languageName: node
   linkType: hard
 
@@ -8994,7 +8994,7 @@ __metadata:
     "@remix-run/dev": "npm:^2.12.1"
     "@remix-run/node": "npm:^2.12.0"
     "@remix-run/react": "npm:^2.12.1"
-    "@remix-run/serve": "npm:^2.12.0"
+    "@remix-run/serve": "npm:^2.12.1"
     "@types/react": "npm:^18.3.7"
     "@types/react-dom": "npm:^18.3.0"
     "@typescript-eslint/eslint-plugin": "npm:^8.6.0"
