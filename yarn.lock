@@ -1311,38 +1311,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/express@npm:2.12.1":
-  version: 2.12.1
-  resolution: "@remix-run/express@npm:2.12.1"
+"@remix-run/express@npm:2.13.1":
+  version: 2.13.1
+  resolution: "@remix-run/express@npm:2.13.1"
   dependencies:
-    "@remix-run/node": "npm:2.12.1"
+    "@remix-run/node": "npm:2.13.1"
   peerDependencies:
-    express: ^4.19.2
+    express: ^4.20.0
     typescript: ^5.1.0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/bb90bd1f23b625b7dbfc4f0dfca03ccff3919f82194633aa3f1bdd10d8cb220a99b4a1e20c55e315f58533d082b9006c01813bf3aab62373d4693978d475a7f4
-  languageName: node
-  linkType: hard
-
-"@remix-run/node@npm:2.12.1, @remix-run/node@npm:^2.12.1":
-  version: 2.12.1
-  resolution: "@remix-run/node@npm:2.12.1"
-  dependencies:
-    "@remix-run/server-runtime": "npm:2.12.1"
-    "@remix-run/web-fetch": "npm:^4.4.2"
-    "@web3-storage/multipart-parser": "npm:^1.0.0"
-    cookie-signature: "npm:^1.1.0"
-    source-map-support: "npm:^0.5.21"
-    stream-slice: "npm:^0.1.2"
-    undici: "npm:^6.11.1"
-  peerDependencies:
-    typescript: ^5.1.0
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: 10c0/d340c02a865c90e5146515158699a4a891890ae3654dfc1bd9833c804f3439884d61471e6d82f6d21688ecbb6bc13554e335249ef5bccb4f44f4a2bc41a984a9
+  checksum: 10c0/803375fb5ac20a65587b2f664105fdb03e245a5643ce159ca708b4ae8856fe35794db85db61531dd51f6f92310a004ef606aa159b0505100cd5c2dccc6e91f1d
   languageName: node
   linkType: hard
 
@@ -1363,6 +1343,26 @@ __metadata:
     typescript:
       optional: true
   checksum: 10c0/bfb8cab4d5edcbd34ee5e430dba61fc72be6927effd51e1ff10edf48ff7cb8470c53f7570728c1b581e67ba1c46856cb8730968ca24f5dff0958d7291ca2527d
+  languageName: node
+  linkType: hard
+
+"@remix-run/node@npm:^2.12.1":
+  version: 2.12.1
+  resolution: "@remix-run/node@npm:2.12.1"
+  dependencies:
+    "@remix-run/server-runtime": "npm:2.12.1"
+    "@remix-run/web-fetch": "npm:^4.4.2"
+    "@web3-storage/multipart-parser": "npm:^1.0.0"
+    cookie-signature: "npm:^1.1.0"
+    source-map-support: "npm:^0.5.21"
+    stream-slice: "npm:^0.1.2"
+    undici: "npm:^6.11.1"
+  peerDependencies:
+    typescript: ^5.1.0
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 10c0/d340c02a865c90e5146515158699a4a891890ae3654dfc1bd9833c804f3439884d61471e6d82f6d21688ecbb6bc13554e335249ef5bccb4f44f4a2bc41a984a9
   languageName: node
   linkType: hard
 
@@ -1400,21 +1400,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/serve@npm:^2.12.1":
-  version: 2.12.1
-  resolution: "@remix-run/serve@npm:2.12.1"
+"@remix-run/serve@npm:^2.13.1":
+  version: 2.13.1
+  resolution: "@remix-run/serve@npm:2.13.1"
   dependencies:
-    "@remix-run/express": "npm:2.12.1"
-    "@remix-run/node": "npm:2.12.1"
+    "@remix-run/express": "npm:2.13.1"
+    "@remix-run/node": "npm:2.13.1"
     chokidar: "npm:^3.5.3"
     compression: "npm:^1.7.4"
-    express: "npm:^4.19.2"
+    express: "npm:^4.20.0"
     get-port: "npm:5.1.1"
     morgan: "npm:^1.10.0"
     source-map-support: "npm:^0.5.21"
   bin:
     remix-serve: dist/cli.js
-  checksum: 10c0/2f5710cbb73ec503a5b2fe858dced9f614e802a79e314827b91014d7e3c58693f5d9eff336e3f37c9ebc2ab74ce27438f0990fa74452a61c1a12e3fe05b46e21
+  checksum: 10c0/80e2457e630d145a23d6c0be2bb489eda3d0d62f2507f42163b9067997cf5fd128f0036bddd83e799d5e8d44f77059ae33486f4f70b5752bb2acc55160c69a16
   languageName: node
   linkType: hard
 
@@ -2884,17 +2884,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cookie@npm:0.6.0, cookie@npm:^0.6.0":
-  version: 0.6.0
-  resolution: "cookie@npm:0.6.0"
-  checksum: 10c0/f2318b31af7a31b4ddb4a678d024514df5e705f9be5909a192d7f116cfb6d45cbacf96a473fa733faa95050e7cff26e7832bb3ef94751592f1387b71c8956686
-  languageName: node
-  linkType: hard
-
 "cookie@npm:0.7.1":
   version: 0.7.1
   resolution: "cookie@npm:0.7.1"
   checksum: 10c0/5de60c67a410e7c8dc8a46a4b72eb0fe925871d057c9a5d2c0e8145c4270a4f81076de83410c4d397179744b478e33cd80ccbcc457abf40a9409ad27dcd21dde
+  languageName: node
+  linkType: hard
+
+"cookie@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "cookie@npm:0.6.0"
+  checksum: 10c0/f2318b31af7a31b4ddb4a678d024514df5e705f9be5909a192d7f116cfb6d45cbacf96a473fa733faa95050e7cff26e7832bb3ef94751592f1387b71c8956686
   languageName: node
   linkType: hard
 
@@ -4150,45 +4150,6 @@ __metadata:
   version: 3.1.1
   resolution: "exponential-backoff@npm:3.1.1"
   checksum: 10c0/160456d2d647e6019640bd07111634d8c353038d9fa40176afb7cd49b0548bdae83b56d05e907c2cce2300b81cae35d800ef92fefb9d0208e190fa3b7d6bb579
-  languageName: node
-  linkType: hard
-
-"express@npm:^4.19.2":
-  version: 4.21.0
-  resolution: "express@npm:4.21.0"
-  dependencies:
-    accepts: "npm:~1.3.8"
-    array-flatten: "npm:1.1.1"
-    body-parser: "npm:1.20.3"
-    content-disposition: "npm:0.5.4"
-    content-type: "npm:~1.0.4"
-    cookie: "npm:0.6.0"
-    cookie-signature: "npm:1.0.6"
-    debug: "npm:2.6.9"
-    depd: "npm:2.0.0"
-    encodeurl: "npm:~2.0.0"
-    escape-html: "npm:~1.0.3"
-    etag: "npm:~1.8.1"
-    finalhandler: "npm:1.3.1"
-    fresh: "npm:0.5.2"
-    http-errors: "npm:2.0.0"
-    merge-descriptors: "npm:1.0.3"
-    methods: "npm:~1.1.2"
-    on-finished: "npm:2.4.1"
-    parseurl: "npm:~1.3.3"
-    path-to-regexp: "npm:0.1.10"
-    proxy-addr: "npm:~2.0.7"
-    qs: "npm:6.13.0"
-    range-parser: "npm:~1.2.1"
-    safe-buffer: "npm:5.2.1"
-    send: "npm:0.19.0"
-    serve-static: "npm:1.16.2"
-    setprototypeof: "npm:1.2.0"
-    statuses: "npm:2.0.1"
-    type-is: "npm:~1.6.18"
-    utils-merge: "npm:1.0.1"
-    vary: "npm:~1.1.2"
-  checksum: 10c0/4cf7ca328f3fdeb720f30ccb2ea7708bfa7d345f9cc460b64a82bf1b2c91e5b5852ba15a9a11b2a165d6089acf83457fc477dc904d59cd71ed34c7a91762c6cc
   languageName: node
   linkType: hard
 
@@ -9106,7 +9067,7 @@ __metadata:
     "@remix-run/dev": "npm:^2.13.1"
     "@remix-run/node": "npm:^2.12.1"
     "@remix-run/react": "npm:^2.13.1"
-    "@remix-run/serve": "npm:^2.12.1"
+    "@remix-run/serve": "npm:^2.13.1"
     "@types/react": "npm:^18.3.11"
     "@types/react-dom": "npm:^18.3.1"
     "@typescript-eslint/eslint-plugin": "npm:^8.9.0"
