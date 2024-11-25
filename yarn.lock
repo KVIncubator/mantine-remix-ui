@@ -1143,12 +1143,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/hooks@npm:7.13.5":
-  version: 7.13.5
-  resolution: "@mantine/hooks@npm:7.13.5"
+"@mantine/hooks@npm:7.14.2":
+  version: 7.14.2
+  resolution: "@mantine/hooks@npm:7.14.2"
   peerDependencies:
     react: ^18.x || ^19.x
-  checksum: 10c0/2934f36c4e14288e06f0d7cb22cc0c7003300ab2c612d8f11a57c5bbedc18f5c3aa95bbd6095e51f1adb2d944369b1e3fd7f69f9d61aa3c5003ad95ac4509e1b
+  checksum: 10c0/f3eb054c07858f2ee972affe388a9eaea07effdc94a8c11fc5abc1ef2639b56ce650a619403bf156ac7d9ee71abcea191b21e6b04459821d34173f8a691817cd
   languageName: node
   linkType: hard
 
@@ -9096,7 +9096,7 @@ __metadata:
   resolution: "vite-remix@workspace:."
   dependencies:
     "@mantine/core": "npm:7.14.0"
-    "@mantine/hooks": "npm:7.13.5"
+    "@mantine/hooks": "npm:7.14.2"
     "@remix-run/dev": "npm:^2.15.0"
     "@remix-run/node": "npm:^2.14.0"
     "@remix-run/react": "npm:^2.15.0"
