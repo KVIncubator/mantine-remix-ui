@@ -1367,18 +1367,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/express@npm:2.15.0":
-  version: 2.15.0
-  resolution: "@remix-run/express@npm:2.15.0"
+"@remix-run/express@npm:2.15.1":
+  version: 2.15.1
+  resolution: "@remix-run/express@npm:2.15.1"
   dependencies:
-    "@remix-run/node": "npm:2.15.0"
+    "@remix-run/node": "npm:2.15.1"
   peerDependencies:
     express: ^4.20.0
     typescript: ^5.1.0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/1bdcc4da08c6bc33aa4264a5fa58264bbcdcb5b7200f5ebf5f9b5a79762e1d29ff8566adc5413092c7d1123a6b99a11e3ca659a564cbbb18cfa1eaec45db8374
+  checksum: 10c0/1b21f6e08e826892304ade5edd35f041df6eaa1fd4a1677062de9458dc91a9ea7a3e664509d350177a7c48f997f952d2cbb6d26ba0352dbcbe56e279632ee04e
   languageName: node
   linkType: hard
 
@@ -1399,6 +1399,26 @@ __metadata:
     typescript:
       optional: true
   checksum: 10c0/9c218b498791ccc9902e367f8f02687b31fa9d068dbbb01c28e676ee336684982661cb8529341b5a715c5d04d4fb19b1436ea0899fd3006e592837dff74412c5
+  languageName: node
+  linkType: hard
+
+"@remix-run/node@npm:2.15.1":
+  version: 2.15.1
+  resolution: "@remix-run/node@npm:2.15.1"
+  dependencies:
+    "@remix-run/server-runtime": "npm:2.15.1"
+    "@remix-run/web-fetch": "npm:^4.4.2"
+    "@web3-storage/multipart-parser": "npm:^1.0.0"
+    cookie-signature: "npm:^1.1.0"
+    source-map-support: "npm:^0.5.21"
+    stream-slice: "npm:^0.1.2"
+    undici: "npm:^6.11.1"
+  peerDependencies:
+    typescript: ^5.1.0
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 10c0/db352ed1c36e86eb8a69275df1d3af702f134aefc43ff82f30fa41aa80070b25ab9640a756da4bf4be992b4351a9ea17ded904b49727730374ae9ace34849b49
   languageName: node
   linkType: hard
 
@@ -1429,12 +1449,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/serve@npm:^2.15.0":
-  version: 2.15.0
-  resolution: "@remix-run/serve@npm:2.15.0"
+"@remix-run/serve@npm:^2.15.1":
+  version: 2.15.1
+  resolution: "@remix-run/serve@npm:2.15.1"
   dependencies:
-    "@remix-run/express": "npm:2.15.0"
-    "@remix-run/node": "npm:2.15.0"
+    "@remix-run/express": "npm:2.15.1"
+    "@remix-run/node": "npm:2.15.1"
     chokidar: "npm:^3.5.3"
     compression: "npm:^1.7.4"
     express: "npm:^4.20.0"
@@ -1443,7 +1463,7 @@ __metadata:
     source-map-support: "npm:^0.5.21"
   bin:
     remix-serve: dist/cli.js
-  checksum: 10c0/4c318e8509de2288fc283d33da0fc3a7e1aa32ccf38a82a4006a2cccd353d7ec353acdf02e9a837ee6a0019180868df870a76b85853c01b3b70ed4357d565c8e
+  checksum: 10c0/6a6bc8b75df527494539f0f85d196eb59ea1b66876938d15026c7c927e9f2aab449d421675f500131e38617fb01dbc3c503f94fcc88ef60d787d7312288b5b78
   languageName: node
   linkType: hard
 
@@ -8966,7 +8986,7 @@ __metadata:
     "@remix-run/dev": "npm:^2.15.0"
     "@remix-run/node": "npm:^2.15.0"
     "@remix-run/react": "npm:^2.15.1"
-    "@remix-run/serve": "npm:^2.15.0"
+    "@remix-run/serve": "npm:^2.15.1"
     "@types/react": "npm:^19.0.0"
     "@types/react-dom": "npm:^19.0.2"
     "@typescript-eslint/eslint-plugin": "npm:^8.17.0"
