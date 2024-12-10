@@ -21,7 +21,7 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.15.0",
+    "@remix-run/dev": "^2.15.1",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.2",
     "@typescript-eslint/eslint-plugin": "^8.17.0",
