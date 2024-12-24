@@ -1382,7 +1382,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/node@npm:2.15.2":
+"@remix-run/node@npm:2.15.2, @remix-run/node@npm:^2.15.2":
   version: 2.15.2
   resolution: "@remix-run/node@npm:2.15.2"
   dependencies:
@@ -1399,26 +1399,6 @@ __metadata:
     typescript:
       optional: true
   checksum: 10c0/440d69496c6079c29573602ff152bcb28db42a127d72d5ec1b3d31370b021abac354b2ca4fbc20ff6b5eb7433b2130f25f0a5315723cacfe599d82441f1fa001
-  languageName: node
-  linkType: hard
-
-"@remix-run/node@npm:^2.15.1":
-  version: 2.15.1
-  resolution: "@remix-run/node@npm:2.15.1"
-  dependencies:
-    "@remix-run/server-runtime": "npm:2.15.1"
-    "@remix-run/web-fetch": "npm:^4.4.2"
-    "@web3-storage/multipart-parser": "npm:^1.0.0"
-    cookie-signature: "npm:^1.1.0"
-    source-map-support: "npm:^0.5.21"
-    stream-slice: "npm:^0.1.2"
-    undici: "npm:^6.11.1"
-  peerDependencies:
-    typescript: ^5.1.0
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: 10c0/db352ed1c36e86eb8a69275df1d3af702f134aefc43ff82f30fa41aa80070b25ab9640a756da4bf4be992b4351a9ea17ded904b49727730374ae9ace34849b49
   languageName: node
   linkType: hard
 
@@ -8975,7 +8955,7 @@ __metadata:
     "@mantine/core": "npm:7.15.2"
     "@mantine/hooks": "npm:7.15.2"
     "@remix-run/dev": "npm:^2.15.2"
-    "@remix-run/node": "npm:^2.15.1"
+    "@remix-run/node": "npm:^2.15.2"
     "@remix-run/react": "npm:^2.15.1"
     "@remix-run/serve": "npm:^2.15.2"
     "@types/react": "npm:^19.0.2"
