@@ -14,7 +14,7 @@
     "@mantine/core": "7.15.2",
     "@mantine/hooks": "7.15.2",
     "@remix-run/node": "^2.15.2",
-    "@remix-run/react": "^2.15.1",
+    "@remix-run/react": "^2.15.2",
     "@remix-run/serve": "^2.15.2",
     "isbot": "^5.1.18",
     "react": "^19.0.0",
